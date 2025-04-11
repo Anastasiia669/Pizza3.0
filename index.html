@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Піцерія "Смачна Піцца"</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+    }
+    header {
+      background-color: #ff5733;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffa07a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .pizza {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .pizza img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .pizza h3 {
+      margin: 10px 0 5px;
+    }
+    .pizza p {
+      margin: 0;
+    }
+    footer {
+      background-color: #ff5733;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Піцерія "Смачна Піцца"</h1>
+    <p>Найсмачніша піцца у місті!</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Меню</a>
+    <a href="#contact">Контакти</a>
+  </nav>
+
+  <section id="menu" class="menu">
+    <div class="pizza">
+      <img src="images/pepperoni.jpg" alt="Пепероні">
+      <h3>Пепероні</h3>
+      <p>Сир, соус, пепероні</p>
+    </div>
+    <div class="pizza">
+      <img src="images/margarita.jpg" alt="Маргарита">
+      <h3>Маргарита</h3>
+      <p>Сир, томати, базилік</p>
+    </div>
+    <div class="pizza">
+      <img src="images/hawaiian.jpg" alt="Гавайська">
+      <h3>Гавайська</h3>
+      <p>Сир, шинка, ананаси</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Телефон: +380 12 345 6789</p>
+    <p>Адреса: вул. Смачна, 12, Київ</p>
+  </footer>
+</body>
+</html>
